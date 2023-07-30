@@ -31,5 +31,6 @@ pipeline {
                 sh 'mvn clean package'
 		        echo 'code packing is completed'
             }
+        }
 	}
 }
